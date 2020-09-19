@@ -6,10 +6,12 @@
 // Example usage: go run stdout_streamer.go | vlc -
 package main
 
-import "github.com/blackjack/webcam"
-import "os"
-import "fmt"
-import "sort"
+import (
+	"fmt"
+	"os"
+	"sort"
+	"webcam"
+)
 
 func readChoice(s string) int {
 	var i int

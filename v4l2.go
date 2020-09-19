@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/binary"
 	"unsafe"
+	"webcam/ioctl"
 
-	"github.com/blackjack/webcam/ioctl"
 	"golang.org/x/sys/unix"
 )
 
